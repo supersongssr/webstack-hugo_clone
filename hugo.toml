@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "zh-CN"
 title = "WebStack网址导航 Hugo主题"
-theme = "webstack-hugo"
+# theme = "webstack-hugo"
 preserveTaxonomyNames = true
 disablePathToLower = true
 hasCJKLanguage = true
@@ -12,4 +12,4 @@ copyright = ""
 [params.search]
   enable = true
 [params.darkmode]
-  enable = false
+  enable = true
