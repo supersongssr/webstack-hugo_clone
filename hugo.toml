@@ -13,3 +13,5 @@ copyright = ""
   enable = true
 # [params.darkmode]
 #   enable = true
+[params.nav]
+  enable = true

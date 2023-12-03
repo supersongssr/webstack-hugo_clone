@@ -26,8 +26,10 @@
 + 新增聚合搜索框、夜间模式，可开关
 ```
 config.toml配置文件新增如下参数进行相应模式的开（true）和关（false）
-[params.search]
+[params.search] 是否显示搜索
   enable = true
-[params.darkmode]
+<!-- [params.darkmode] 
+  enable = false -->
+[params.nav] 是否显示 导航栏
   enable = false
 ```
