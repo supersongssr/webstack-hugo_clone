@@ -11,5 +11,5 @@ copyright = ""
   description = "Webstack Hugo"
 [params.search]
   enable = true
-[params.darkmode]
-  enable = true
+# [params.darkmode]
+#   enable = true
