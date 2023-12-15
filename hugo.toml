@@ -15,3 +15,5 @@ copyright = ""
 #   enable = true
 [params.nav]
   enable = true
+[params.https] #强制js跳转 https
+  enable = false 
