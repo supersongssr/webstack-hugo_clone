@@ -1,0 +1,23 @@
+{{ if .Site.Params.theme.enable }}
+<script type="text/javascript">
+    const body = document.querySelector('body');
+    const modeToggleBtn = document.querySelector('.theme-button');
+    const currentMode = localStorage.getItem('theme-mode');
+    if (currentMode === 'white') {
+        body.classList.add('white');
+    } else if (currentMode === 'black') {
+        body.classList.add('black');
+    }
+    modeToggleBtn.addEventListener('click', () => {
+        if (body.classList.contains('white')) {
+            body.classList.remove('white');
+            body.classList.add('black');
+            localStorage.setItem('theme-mode', 'black');
+        } else if (body.classList.contains('black')) {
+            body.classList.remove('black');
+            body.classList.add('white');
+            localStorage.setItem('theme-mode', 'white');
+        }
+    });
+</script>
+{{ end }}

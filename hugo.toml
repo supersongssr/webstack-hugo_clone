@@ -1,18 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.okxz.top/"
 languageCode = "zh-CN"
-title = "WebStack网址导航 Hugo主题"
+title = "OK下载导航,互联网净土"
 # theme = "webstack-hugo"
 preserveTaxonomyNames = true
 disablePathToLower = true
 hasCJKLanguage = true
 copyright = ""
 [params]
-  author = "iplaycode"
-  description = "Webstack Hugo"
+  author = "okxz"
+  description = "OK下载,互联网净土"
 [params.search]
   enable = true
 # [params.darkmode]
 #   enable = true
+[params.theme]
+  enable = true
 [params.nav]
   enable = true
 [params.https] #强制js跳转 https

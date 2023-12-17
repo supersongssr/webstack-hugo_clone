@@ -8,79 +8,91 @@
       url: https://game.okxz.top/
       description: 游戏,开心版,无广告,下载
 
-- taxonomy: 网盘搜索
-  icon: fa-newspaper-o
-  links: 
-    - title: UP云搜
-      logo: assets/images/logos/www.upyunso.com.ico
-      url: https://www.upyunso.com/
-      description: 网盘搜索,定期清理失效资源
-    - title: 皮卡搜索
-      url: https://www.pikaso.top/
-      logo: assets/images/logos/www.pikaso.top.ico
-      description: 爬虫抓取,不保证质量
-    - title: 猫狸盘搜
-      url: https://www.alipansou.com/
-      logo: assets/images/logos/www.alipansou.com.ico
-      description: 有广告
-    - title: 学霸盘
-      url: https://www.xuebapan.com/
-      logo: assets/images/logos/www.xuebapan.com.ico
-      description: 百度网盘为主,真学习资料
-    - title: 奈斯搜索
-      url: https://www.niceso.net/
-      logo: assets/images/logos/www.niceso.net.ico
-      description: 好用的阿里云盘资源搜索引擎
-    - title: YaPan
-      url: https://yapan.io/
-      logo: assets/images/logos/yapan.io.ico
-      description: 阿里云盘为主
    
-- taxonomy: 网盘分享
+- taxonomy: 网盘资源
   icon: fa-pencil
   list: 
-    - term: 阿里云盘
+    - term: 网盘分享
       links:
         - title: 阿里小站
           url: https://pan666.net/
           logo: assets/images/logos/pan666.net.ico
           description: 阿里为主,资源很全
-        - title: 阿里云盘资源共享
-          url: https://bbs.alipansou.com/
-          logo: assets/images/logos/bbs.alipansou.com.ico
-          description: 猫狸盘搜的BBS
-        
-    - term: 百度网盘
-      links:
-        - title: 优设网
-          url: http://www.uisdc.com/
-          logo: assets/images/logos/uisdc.png
-          description: 设计师交流学习平台
-
-
-    - term: 天翼云盘
-      links:
         - title: 云盘共享社
           url: https://yunpan1.cc/
           logo: assets/images/logos/yunpan1.cc.ico
           description: 天翼为主,资源很全
+    - term: 网盘搜索
+      links: 
+        - title: UP云搜
+          logo: assets/images/logos/www.upyunso.com.ico
+          url: https://www.upyunso.com/
+          description: 网盘搜索,定期清理失效资源
+        - title: 皮卡搜索
+          url: https://www.pikaso.top/
+          logo: assets/images/logos/www.pikaso.top.ico
+          description: 爬虫抓取,不保证质量
+        - title: 猫狸盘搜
+          url: https://www.alipansou.com/
+          logo: assets/images/logos/www.alipansou.com.ico
+          description: 有广告
+        - title: 学霸盘
+          url: https://www.xuebapan.com/
+          logo: assets/images/logos/www.xuebapan.com.ico
+          description: 百度网盘为主,真学习资料
+        - title: 奈斯搜索
+          url: https://www.niceso.net/
+          logo: assets/images/logos/www.niceso.net.ico
+          description: 好用的阿里云盘资源搜索引擎
+        - title: YaPan
+          url: https://yapan.io/
+          logo: assets/images/logos/yapan.io.ico
+          description: 阿里云盘为主
 
-- taxonomy: 游戏
+- taxonomy: 游戏软件
   icon: fa-lightbulb-o
-  links: 
-    - title: LovePS4
-      logo: assets/images/logos/loveps4.com.ico
-      url: https://loveps4.com/
-      description: PS4,破解,下载
-    - title: OK游戏
-      logo: assets/images/logos/game.okxz.top.png
-      url: https://game.okxz.top/
-      description: 游戏,开心版,无广告,下载
+  list:
+    - term : 游戏下载
+      links: 
+        - title: OK游戏
+          logo: assets/images/logos/game.okxz.top.png
+          url: https://game.okxz.top/
+          description: 游戏,网盘下载,无广告
+        - title: FreeGamesDL
+          logo: assets/images/logos/www.freegamesdl.net.ico
+          url: https://www.freegamesdl.net/
+          description: 游戏下载,来自英国的团队
+        - title: LovePS4
+          logo: assets/images/logos/loveps4.com.ico
+          url: https://loveps4.com/
+          description: PS4,破解,下载
+        - title: 葫芦侠
+          logo: assets/images/logos/www.huluxia.com.png
+          url: http://www.huluxia.com/
+          description: 安卓游戏,破解,下载
+    - term : 软件下载
+      links:  
+        - title: 果核剥壳
+          url: https://www.ghxi.com/
+          logo: assets/images/logos/www.ghxi.com.ico
+          description: 修改版软件,互联网净土
+        - title: MSDN,I Tell You
+          url: https://msdn.itellyou.cn/
+          logo: assets/images/logos/msdn.itellyou.cn.ico
+          description: WINDOWS下载,纯净版,老站
+        - title: 油小猴
+          url: https://www.youxiaohou.com/
+          logo: assets/images/logos/www.youxiaohou.com.ico
+          description: 油猴,网盘下载插件,浏览器
+        - title: Greasy Fork
+          url: https://greasyfork.org/
+          logo: assets/images/logos/greasyfork.org.ico
+          description: 油猴插件,下载,最佳
 
-- taxonomy: 影视资源
+- taxonomy: 影视动漫
   icon: fa-lightbulb-o
   list: 
-    - term: 磁力下载
+    - term: 影视下载
       links:
         - title: YTS
           logo: assets/images/logos/yts.rs.ico
@@ -94,28 +106,13 @@
           logo: assets/images/logos/soupian.pro.ico
           url: https://soupian.pro/
           description: 在线,磁力,云盘,字幕都有
-    - term: 影视推荐
+    
+    - term: 影视在线
       links:
         - title: 茶杯狐
           logo: assets/images/logos/cupfox.love.ico
           url: https://cupfox.love/
           description: 拯救剧荒,影视推荐
-    - term: 字幕
-      links:
-        - title: 字幕库
-          logo: assets/images/logos/srtku.com.ico
-          url: https://srtku.com/
-          description: 字幕全,最好的了
-        - title: 射手网
-          logo: assets/images/logos/assrt.net.ico
-          url: https://assrt.net/
-          description: 字幕下载
-        - title: SubHD
-          logo: assets/images/logos/subhd.tv.ico
-          url: https://subhd.tv/
-          description: 字幕下载,无广告
-    - term: 在线影视
-      links:
         - title: 在线之家
           logo: assets/images/logos/www.zxzj.pro.ico
           url: https://www.zxzj.pro/
@@ -132,7 +129,21 @@
           logo: assets/images/logos/dianyi.ng.ico
           url: https://dianyi.ng/
           description: 在线看,也能下载
-    - term: 动漫
+    - term: 字幕下载
+      links:
+        - title: 字幕库
+          logo: assets/images/logos/srtku.com.ico
+          url: https://srtku.com/
+          description: 字幕全,最好的了
+        - title: 射手网
+          logo: assets/images/logos/assrt.net.ico
+          url: https://assrt.net/
+          description: 字幕下载
+        - title: SubHD
+          logo: assets/images/logos/subhd.tv.ico
+          url: https://subhd.tv/
+          description: 字幕下载,无广告
+    - term: 动漫在线
       links:
         - title: 蜜糖动漫
           logo: assets/images/logos/www.mitang.tv.ico
@@ -147,10 +158,10 @@
           logo: assets/images/logos/www.colamanga.com.ico
           description: 国漫,视频
 
-- taxonomy: 壁纸漫画
+- taxonomy: 漫画书籍
   icon: fa-diamond
   list: 
-    - term: 漫画阅读
+    - term: 漫画在线
       links:  
         - title: Kox漫画
           url: https://kox.moe/
@@ -195,26 +206,6 @@
           url: https://www.copymanga.tv/
           logo: assets/images/logos/www.copymanga.tv.ico
           description: 日本,在线,
-
-- taxonomy: 音乐电台
-  icon: fa-diamond
-  links: 
-    - title: 洛雪音乐
-      url: https://lxmusic.toside.cn/
-      logo: assets/images/logos/lxmusic.toside.cn.ico
-      description: 音乐下载,在线听,聚合
-    - title: MyFreeMP3
-      url: http://tools.liumingye.cn/music/#/
-      logo: assets/images/logos/tools.liumingye.cn.music.ico
-      description: 无损下载
-    - title: 卡音
-      url: http://music.ijanz.cn/
-      logo: assets/images/logos/music.ijanz.cn.ico
-      description: 音乐下载,无损,安卓
-    
-- taxonomy: 书籍小说
-  icon: fa-diamond
-  list: 
     - term: 小说
       links:
         - title: 贼吧网
@@ -239,30 +230,23 @@
           logo: assets/images/logos/annas-archive.org.ico
           url: https://zh.annas-archive.org/
           description: 开放图书馆
-
-- taxonomy: 磁力下载
-
-- taxonomy: 软件
+- taxonomy: 音乐电台
   icon: fa-diamond
-  links:  
-    - title: 果核剥壳
-      url: https://www.ghxi.com/
-      logo: assets/images/logos/www.ghxi.com.ico
-      description: 修改版软件,互联网净土
-    - title: MSDN,I Tell You
-      url: https://msdn.itellyou.cn/
-      logo: assets/images/logos/msdn.itellyou.cn.ico
-      description: WINDOWS下载,纯净版,老站
-    - title: 油小猴
-      url: https://www.youxiaohou.com/
-      logo: assets/images/logos/www.youxiaohou.com.ico
-      description: 油猴,网盘下载插件,浏览器
-    - title: Greasy Fork
-      url: https://greasyfork.org/
-      logo: assets/images/logos/greasyfork.org.ico
-      description: 油猴插件,下载,最佳
-
-- taxonomy: 分类导航
+  links: 
+    - title: 洛雪音乐
+      url: https://lxmusic.toside.cn/
+      logo: assets/images/logos/lxmusic.toside.cn.ico
+      description: 音乐下载,在线听,聚合
+    - title: MyFreeMP3
+      url: http://tools.liumingye.cn/music/#/
+      logo: assets/images/logos/tools.liumingye.cn.music.ico
+      description: 无损下载
+    - title: 卡音
+      url: http://music.ijanz.cn/
+      logo: assets/images/logos/music.ijanz.cn.ico
+      description: 音乐下载,无损,安卓
+    
+- taxonomy: 专业导航
   icon: fa-diamond
   links:  
     - title: ACG导航

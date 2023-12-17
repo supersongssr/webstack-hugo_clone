@@ -1,7 +1,7 @@
 
 # todo
-- [] find the icons 
-    - https://api.iowen.cn/favicon/www.alipansou.com.png
+- [x] find the icons 
+    - https://api.iowen.cn/favicon/play.nintendo.com.png
     - https://api.iowen.cn/doc/favicon.html
 - [] sites
     - [] cat first 
