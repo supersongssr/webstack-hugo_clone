@@ -10,7 +10,7 @@
 
    
 - taxonomy: 网盘资源
-  icon: fa-pencil
+  icon: fa-cloud-download
   list: 
     - term: 网盘分享
       links:
@@ -50,7 +50,7 @@
           description: 阿里云盘为主
 
 - taxonomy: 游戏软件
-  icon: fa-lightbulb-o
+  icon: fa-gamepad
   list:
     - term : 游戏下载
       links: 
@@ -90,7 +90,7 @@
           description: 油猴插件,下载,最佳
 
 - taxonomy: 影视动漫
-  icon: fa-lightbulb-o
+  icon: fa-film
   list: 
     - term: 影视下载
       links:
@@ -98,6 +98,10 @@
           logo: assets/images/logos/yts.rs.ico
           url: https://yts.rs/ 
           description: BT磁力下载电影
+        - title: 人人影视NB
+          logo: assets/images/logos/www.rrdynb.com.ico
+          url: https://www.rrdynb.com/
+          description: 影视下载,网盘下载,百度云盘,阿里网盘
         - title: 磁力熊
           logo: assets/images/logos/www.cilixiong.com.ico
           url: https://www.cilixiong.com/
@@ -159,7 +163,7 @@
           description: 国漫,视频
 
 - taxonomy: 漫画书籍
-  icon: fa-diamond
+  icon: fa-book
   list: 
     - term: 漫画在线
       links:  
@@ -231,7 +235,7 @@
           url: https://zh.annas-archive.org/
           description: 开放图书馆
 - taxonomy: 音乐电台
-  icon: fa-diamond
+  icon: fa-music
   links: 
     - title: 洛雪音乐
       url: https://lxmusic.toside.cn/
@@ -247,7 +251,7 @@
       description: 音乐下载,无损,安卓
     
 - taxonomy: 专业导航
-  icon: fa-diamond
+  icon: fa-location-arrow
   links:  
     - title: ACG导航
       url: https://www.miaoaaa.com/
